@@ -23,6 +23,7 @@ for service in "${liste[@]}"
 do
    if (( $(ps -ef | grep -v grep | grep $service | wc -l) > 0 ));
    then
+#     echo "$horodatage : $service en route!!!" > /dev/null 2>&1
       echo "$horodatage : service $service exécuté!!!"  >> $log;
    else
       echo "$horodatage : service $service stoppé lancement de $service!!!"  >> $log;
