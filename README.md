@@ -5,5 +5,4 @@ example:
 
 liste=( "apache2" "mysql" "squid" "proftpd")
 
-* * * * * /lien-du-script
 
