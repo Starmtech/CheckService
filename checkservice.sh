@@ -1,4 +1,9 @@
 #!/bin/bash
+#           CheckService               
+#      langage : Bash      
+#         date : 07/05/17         
+#          version : 1.0          
+#        auteur : devkort         
 
 liste=( "apache2" "mysql")
 log=("/var/log/checkservice.log")
